@@ -1,0 +1,30 @@
+.header{
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+  padding: 1em;
+
+}
+
+.header__logo{
+  height: 34px;
+  width: 145px;
+  padding: 1% 2%;
+
+  cursor: pointer;
+}
+
+.header__buttons{
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+  height: 57.68px;
+  width: 105px;
+  
+
+}
+
+.header__button{
+  padding: 3% 6%;
+  cursor: pointer;
+}
