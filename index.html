@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./assets/css/general.css">
   <link rel="stylesheet" href="./assets/css/header.css">
   <link rel="stylesheet" href="./assets/css/side-menu.css">
+  <link rel="stylesheet" href="./assets/css/form.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,6 +30,39 @@
       <button class="material-icons header__button">menu</button>
     </div>
   </header>
-  
+
+  <main>
+
+  <div class="project-form">
+
+    <form>
+      <!--Code Area-->
+
+      <!-- Project ID -->
+      <label>Your Project</label>
+      <input id = "project__name" class="simple-line" type= "text" placeholder="Project Name"  required>
+
+      <textarea id = "project__description" class="text-area" type= "text" placeholder="Project Description"></textarea>
+
+      <!--Project specification-->
+      <fieldset>
+        <legend>Customization</legend>
+        <select class="langague-box">
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>JavaScript</option>
+          <option>Python</option>
+          <option>Java</option>
+          <option>Cobol</option>
+          <option>C#</option>
+          <option>C++</option>
+          <option>PHP</option>
+          <option>Dart</option>
+        </select>
+      </fieldset>
+    </form>
+
+  </div>
+</main>
 </body>
 </html>
